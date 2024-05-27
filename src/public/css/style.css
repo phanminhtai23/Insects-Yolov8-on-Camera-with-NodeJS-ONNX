@@ -1,0 +1,351 @@
+.html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.waraper {
+    margin: 0 80px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Oxygen", "Ubuntu",
+        "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.header {
+    text-align: center;
+}
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+
+    /* display: flex; */
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.main-right {
+    flex: 1;
+    /* margin: 5px; */
+
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.main-left {
+    flex: 1;
+
+    width: 60%;
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.head-main-right {
+
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 62.4px;
+    width: 100%;
+}
+
+.head-main-right .io-camera {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+}
+
+.head-main-right button {
+    /* margin: 5px; */
+    display: block;
+}
+
+
+.body-main-right {
+    width: 100%;
+    height: 600px;
+    border: 0;
+    /* border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black; */
+    background: url(../img/faculty-slider-placeholder.jpg);
+    /* width: 650px;
+    height: 650px; */
+}
+
+canvas {
+    /* background: url(./img/faculty-slider-placeholder.jpg); */
+    width: 100%;
+    height: 100%;
+}
+
+/* .main-right .parent-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.head-main-left {
+    border-bottom: 1px solid black;
+    height: 62.4px;
+}
+
+.head-main-left h2 {
+    text-align: center;
+    margin: 0;
+    /* margin-top: 10px; */
+    line-height: 62.4px;
+}
+
+.body-main-left {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    width: 700px;
+}
+
+.footer .title a {
+    text-decoration: none;
+}
+
+#webcam-container {
+    position: relative;
+}
+
+#label-container {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+#imageContainer img {
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+#imageContainer .box {
+    display: flex;
+    text-align: center;
+    /* align-items: space-around; */
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+#imageContainer .box h3 {
+    height: 20%;
+    margin: 10px;
+}
+
+#imageContainer .box button {
+    background-color: #dddddd;
+    color: #000000;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.custom-file-input {
+    position: relative;
+    display: inline-block;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-file {
+    display: none;
+}
+
+.file-label {
+    background-color: #dddddd;
+    color: #000000;
+    padding: 8px 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.file-label:hover {
+    background-color: #aaaaaa;
+}
+
+.io-camera button {
+    background-color: #dddddd;
+    color: #000000;
+    border: none;
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#infor {
+    position: relative;
+}
+
+.table2 {
+    position: absolute;
+    /* Đặt vị trí của phần tử con */
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+
+
+/* cột đầu */
+.table tr td:first-child {
+    width: 30%;
+    text-align: center;
+    font-weight: 750;
+    padding: 0;
+    font-size: 19px;
+}
+
+/* cot cuoi */
+.table tr td:last-child {
+    text-align: left;
+    padding: 0 10px 0 10px;
+}
+
+/* dong` */
+.table1 tr {
+    color: red;
+    font-size: 30px;
+    word-wrap: break-word;
+    text-align: center;
+    vertical-align: middle;
+    top: 30px;
+    border-bottom: none;
+}
+
+@media screen and (max-width: 850px) {
+    .waraper {
+        margin: 5px;
+        /* padding: 5px; */
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .io-camera {
+        flex: 1;
+        flex-basis: 100%;
+        flex-direction: row !important;
+    }
+
+    .io-camera button {
+        padding: 10px;
+    }
+
+    .main-left,
+    .main-right {
+        flex: 1;
+        flex-basis: 100%;
+        /* Chiếm 55% chiều rộng của container cha khi màn hình lớn hơn hoặc bằng 768px */
+    }
+
+    .main-left {
+        border: 0;
+        /* margin-top: 10px; */
+    }
+
+    .head-main-left {
+        border-top: 1px solid black;
+        /* height: 45px; */
+    }
+
+    .head-main-left h2 {
+        border-top: 1px solid black;
+    }
+
+    .head-main-right {
+        border-bottom: 1px solid black;
+        width: 100%;
+        height: 15%;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    .custom-file-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .io-camera button:hover {
+        background-color: #aaaaaa;
+    }
+
+    /* table */
+    .table {
+        border-collapse: collapse;
+    }
+
+    .table th,
+    .table td {
+        border: 1px solid black;
+    }
+
+    /* cột đầu */
+    .table tr td:first-child {
+        font-size: 16px;
+    }
+
+    .table tr td:last-child {
+        text-align: left;
+        padding: 0 5px 0 8px;
+    }
+
+    .footer {
+        width: 300px;
+    }
+
+    #imageContainer .box {
+        flex: 1;
+        /* flex-wrap: wrap; */
+        flex-basis: 100%;
+    }
+
+    #imageContainer img {
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logoCICT.ico" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <title>Nhận diện một số loại côn trùng gây hại ở cây lúa</title>
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="waraper">
+        <div class="header">
+            <h1>Hệ thống nhận dạng côn trùng gây hại ở cây lúa</h1>
+            <p>Lưu ý: đến thời điểm hiện tại, hệ thống chỉ nhận diện được 7 loại côn trùng sau: sâu đục thân, sâu cuốn lá, rầy nâu, rầy lưng xanh, dế nhũi, bù lạch và bọ xít đen.</p>
+        </div>
+        <div class="main">
+            <div class="main-right">
+                <div class="head-main-right">
+                    <div class="custom-file-input">
+                        <input id="uploadInput" class="input-file" type="file" />
+                        <label for="uploadInput" class="file-label">Chọn ảnh</label>
+                    </div>
+                    <div class="io-camera">
+                        <button type="button" onclick="init()">Start Camera</button>
+                        <button type='button' onclick='webcamStop()'>Stop Camera</button>
+                    </div>
+                </div>
+                <div class="body-main-right" id="webcam-container">
+                    <!-- <canvas></canvas> -->
+                </div>
+            </div>
+            <div class="main-left">
+                <div class="head-main-left">
+                    <h2>Output</h2>
+                </div>
+                <div class="body-main-left" id="infor"></div>
+            </div>
+
+        </div>
+        <div class="footer">
+
+            <div class="title">
+                <h3>Ảnh mẫu<a
+                        href="https://drive.google.com/drive/folders/1SE8-nWeWAPkQo0EE0k3w1aP14zEiPP48?usp=sharing">
+                        (more here)</a></h3>
+            </div>
+            <div id="imageContainer">
+                <div class="box">
+                    <h3>Rầy lưng xanh</h3>
+                    <img src="./img/ray-lung-xanh-465.jpg" alt="Ảnh 1">
+                    <button onclick="downloadImage('./img/ray-lung-xanh-465.jpg')">Tải ảnh</button>
+                </div>
+                <div class="box">
+                    <h3>Rầy nâu</h3>
+                    <img src="./img/ray-nau-55.jpg" alt="Ảnh 2">
+                    <button onclick="downloadImage('./img/ray-nau-55.jpg')">Tải ảnh</button>
+                </div>
+                <div class="box">
+                    <h3>Sâu đục thân</h3>
+                    <img src="./img/sau-duc-than-80.jpg" alt="Ảnh 3">
+                    <button onclick="downloadImage('./img/sau-duc-than-80.jpg')">Tải ảnh</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/predict_img.js"></script> 
+
+    <!-- <script src="./js/predict_vid_client.js"></script> -->
+
+    <!-- <script src="./js/predict-vid-sever.js"></script> -->
+
+    <script src="./js/predict_vid_teachable.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+</body>
+
+</html>
