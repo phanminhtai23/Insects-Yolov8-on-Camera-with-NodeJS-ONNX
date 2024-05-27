@@ -1,0 +1,58 @@
+[
+  {
+    "id": 0,
+    "ten": "Sâu đục thân",
+    "dac_diem": "- Con sâu đục thân trưởng thành giống cái dài khoảng 13-15mm, sải cánh rộng khoảng 30mm, cánh trước màu vàng nhạt. Con đực nhỏ hơn, màu nâu vàng. Chúng hoạt động về đêm, ban ngày thường ẩn nấp trong bẹ lá hay trong nõn lá non.",
+    "tac_hai": "- Khi còn nhỏ sâu cắn nõn lá non hay cuống hoa.\n- Khi lớn, sâu đục vào cắn phá phần mô mềm bên trong thân cây (quan sát sẽ thấy trên thân cây có nhiều lỗ thủng, xung quanh bám nhiều cục phân sâu).",
+    "cach_dieu_tri": "- Phòng trừ bằng thuốc có các  hoạt chất: Chlorantraniliprole, Thiamethoxam, Abamectin,...(ví dụ: thuốc trừ sâu Prevathon 5SC; Voliam targo 063SC, Virtako 40WG, Kuraba WP,..).",
+    "BP_phong_ngua": "- Gieo trồng lúa tập trung thành những vùng sản xuất lớn, đúng thời vụ thích hợp.\n- Trồng những giống lúa chống chịu sâu đục thân.\n- Tạo điều kiện cho loài thiên địch với sâu đục thân. Bảo vệ và lợi dụng ong ký sinh."
+  },
+  {
+    "id": 1,
+    "ten": "Bọ xít đen",
+    "dac_diem": "- Bọ xít đen mới nở hình hơi tròn, mắt có màu đỏ, thân màu đỏ nâu, không cánh. Con trưởng thành màu nâu đen, con cái có thân dài hơn con đực. Thân có hình bầu dục, lưng và bụng nhô ra như nhau. Phiến mai dài tới cuối bụng nhưng bề ngang không che hết bụng.",
+    "tac_hai": "- Cả bọ xít non và bọ xít trưởng thành đều chích hút nhựa lá, thân lúa.\n- Cây lúa bị hại nặng toàn thân, khô héo và chết từng nhóm.\n- Cây lúa ở thời kỳ trỗ bị bọ xít phá hại thì bông bị lép hoặc bạc trắng.",
+    "cach_dieu_tri": "- Sử dụng các loại thuốc hóa học lưu dẫn, có vị độc, tiếp xúc như Ofatox 400EC, Fastac 5EC, Padan 95 SP; Cyperan 5EC/10EC hoặc 25EC; Bassan 50EC; Sumicidin 10 hoặc 20EC...",
+    "BP_phong_ngua": "- Cấy các giống lúa ngắn ngày, chín sớm cũng làm giảm lứa bọ xít trên ruộng.\n- Phát hiện sớm, diệt các ổ trứng mới nở bằng cách điều chỉnh mực nước trong ruộng, vợt bắt con trưởng thành."
+  },
+  {
+    "id": 2,
+    "ten": "Bù lạch",
+    "dac_diem": "- Bù lạch hại lúa trưởng thành có màu nâu sáng, sau có màu đen bóng, rất nhanh nhẹn, thường bò cong bụng trên mặt lá. Râu đầu hình chuỗi hạt 7 đốt, đốt gốc to hơn các đốt khác.",
+    "tac_hai": "- Gây hại làm cho đầu lá lúa bị cuốn lại, lá héo, tóp lại và khô vàng đi. Làm hạn chế sự sinh trưởng của lúa trong giai đoạn đầu.",
+    "cach_dieu_tri": "- Trong điều kiện ruộng lúa khô hạn và lúa bị bù lạch gây hại nặng, hãy sử dụng các loại thuốc đặc trị bọ trĩ hại lúa có nguồn gốc sinh học: Tasieu 1.9EC, TC Năm Sao 20EC, Song Mã 24.5EC.",
+    "BP_phong_ngua": "- Làm sạch cỏ dại để tránh nơi trú ngụ của bọ trĩ.\n- Bón phân đầy đủ, đúng lúc, hạn chế bón thừa đạm.\n- Duy trì đủ nước, có thể cho ngập cây lúa 1 - 2 ngày."
+  },
+  {
+    "id": 3,
+    "ten": "Dế nhũi",
+    "dac_diem": "- Dế nhũi có thân dày và chiều dài cơ thể từ 2 đến 4 cm. Dế nhũi có hai chi trước rất phát triển, gắn liền với những chiếc móng vuốt có công dụng giúp chúng đào hang.",
+    "tac_hai": "- Dế nhũi thường chỉ phá hại trên ruộng khô, nương mạ khô, dọc theo bờ ruộng hoặc ruộng lúa rẩy.\n- Dế nhũi cắn rễ non và phần non ở gốc lúa phía dưới mặt đất, làm cây lúa bị đứt ngang mặt đất từng chồi và cả bụi lúa.",
+    "cach_dieu_tri": "- Các loại thuốc hạt rất hữu hiệu để trị dế nhũi.\n- Có thể dùng xác dừa trộn với thuốc rãi cho dế ăn.",
+    "BP_phong_ngua": "- Sử dụng lưới chắn, bảo vệ cây bằng vật liệu phù hợp.\n - Bơm nước ngập và rãi thuốc hạt."
+  },
+  {
+    "id": 4,
+    "ten": "Rầy lưng xanh",
+    "dac_diem": "- Chúng sống trên lá lúa, rầy xanh lớn hơn rầy nâu đôi chút, toàn thân và cánh có màu xanh, cuối cùng có vệt đen nên còn gọi là rầy xanh đuôi đen.",
+    "tac_hai": "- Chúng hút chích nhựa và gây cháy rầy.\n- Rầy xanh còn truyền bệnh siêu vi khuẩn: Tungro và vàng lùn.",
+    "cach_dieu_tri": "- Có thể dùng các loại thuốc trừ sâu thông thường cũng diệt được rầy xanh. Đối với rầy xanh thì xịt thuốc đều trên lá lúa.",
+    "BP_phong_ngua": "- Gieo cấy thời vụ đồng loạt bằng các giống ngắn ngày kháng rầy.\n- Mật độ cấy hợp lý, bón phân cân đối, tránh bón quá nhiều đạm.\n- Gieo mạ xa nơi ánh sáng đèn, xa nơi có nhiều cỏ dại, phòng trừ rầy trên nương mạ ngay từ đầu bằng hoạt chất Buprofezin (Butyl 10 WP, Applaud 10 WP, 25SC …)."
+  },
+  {
+    "id": 5,
+    "ten": "Rầy nâu",
+    "dac_diem": "- Rầy nâu rất nhỏ, con trưởng thành (thành trùng) chỉ to bằng hạt gạo, màu nâu. Có 2 dạng rầy cánh ngắn và rầy cánh dài, chúng sống quanh gốc lúa ngay phần bẹ lá.",
+    "tac_hai": "- Rầy nâu chích hút nhựa, làm cho cây lúa suy yếu, phát triển kém, lá vàng úa, rụi dần và khô héo đi gọi là “cháy rầy”.\n- Tác hại gián tiếp của rầy nâu là truyền các bệnh siêu vi khuẩn cho lúa như bệnh lúa cỏ, lùn xoắn lá, vàng lùn.",
+    "cach_dieu_tri": "- Bảo tồn thiên địch của rầy nâu như: nhện, bọ xít mù xanh, bọ xít nước, bọ rùa,…\n- Phun thuốc Apta 300WP khi rầy cám nở rộ, phun thuốc phải đều và kỹ nơi rầy trú ẩn.",
+    "BP_phong_ngua": "- Dùng các giống lúa kháng rầy nâu.\n- Làm vệ sinh  đồng ruộng để rầy không còn chổ ẩn nấp.\n- Bố trí thời vụ sớm và tập trung để cắt đứt nguồn lưu tồn lây lan của rầy."
+  },
+  {
+    "id": 6,
+    "ten": "Sâu cuốn lá",
+    "dac_diem": "- Sâu cuốn lá trưởng thành có màu vàng rơm, kích thước thân dài 8 - 10 mm.\n- Khi đậu cánh xếp hình tam giác, cánh trước màu tro có rìa cánh màu đen đậm, trên cánh trước có 3 đường ziczac cắt ngang.",
+    "tac_hai": "- Sâu thường ăn mép lá hoặc cắn hết đầu lá. Ở mật độ sâu cao có thể cắn trụi lá lúa, ảnh hưởng đến sự sinh trưởng của lúa.\n- Sâu làm tổ có thể ảnh hưởng đến việc lúa trổ đòng, giảm năng suất lúa.",
+    "cach_dieu_tri": "- Sử dụng các loại thuốc đặc trị sâu cuốn lá để có hiệu quả tốt nhất.\n- Sử dụng các loại thiên địch của sâu cuốn lá như ong mắt đỏ (Trichogramma spp.), các loại bọ cánh cứng ăn ấu trùng, nhện.",
+    "BP_phong_ngua": "- Làm sạch cỏ dại, điều chỉnh mật độ cấy phù hợp, để hạn chế việc trứng, ấu trùng có trong cỏ dại, đất.\n- Sử dụng phân bón và chất dinh dưỡng cho lúa ngay từ lúc ban đầu, bón phân cân đối, hợp lý để tạo điều kiện cho cây khoẻ mạnh, hạn chế tối đa thiệt hại do sâu cuốn lá lúa gây ra."
+  }
+]
