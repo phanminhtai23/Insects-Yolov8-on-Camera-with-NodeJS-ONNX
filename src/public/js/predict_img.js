@@ -1,5 +1,14 @@
 const min_prob = 0.5
 
+function downloadImage(url) {
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = url.split('/').pop(); // Tên tệp khi tải về
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
 const input = document.getElementById("uploadInput");
 input.addEventListener("change", async (event) => {
     const dataurl = URL.createObjectURL(event.target.files[0])

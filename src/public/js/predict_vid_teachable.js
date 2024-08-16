@@ -86,6 +86,7 @@ async function loop() {
     var endTime = new Date();
     var executionTime = endTime - startTime;
     let FPS = (1000 / executionTime).toFixed(0);
+    console.log("FPS = ", FPS);
     labelContainer.childNodes[1].innerHTML = "FPS: " + FPS;
     
     window.requestAnimationFrame(loop);
