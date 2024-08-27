@@ -9,18 +9,17 @@
 ## Overviews
 <img src="./assists/home.png" width="500"> 
 
-## Identify a photo
+## Predict a photo
 <img src="./assists/predict.png" width="500"> 
 
-## Identify with camera
+## Camera prediction
 ![Demo GIF](./assists/demo-vid.gif)
-
 
 ## Installation
 1. git clone
 ```bash
 git clone https://github.com/phanminhtai23/Insects-Yolov8-on-Camera-with-NodeJS-ONNX.git
-cd Insects-Yolov8-on-Camera-with-NodeJS-ONNX
+cd ./Insects-Yolov8-on-Camera-with-NodeJS-ONNX
 ```
 2. setup
 ```bash
