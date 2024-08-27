@@ -13,7 +13,7 @@
 <img src="./assists/predict.png" width="500"> 
 
 ## Identify with camera
-![Demo GIF](./assists/demo2.gif)
+![Demo GIF](./assists/demo-vid.gif)
 
 
 ## Installation
