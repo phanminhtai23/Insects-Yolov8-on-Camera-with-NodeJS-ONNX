@@ -15,7 +15,9 @@
 .header {
     text-align: center;
 }
-
+.header h1 {
+    text-transform: uppercase;
+ }
 
 .main {
     display: flex;
@@ -260,6 +262,7 @@ canvas {
 
     .header h1 {
         font-size: 25px;
+        text-transform: uppercase;
     }
 
     .io-camera {
