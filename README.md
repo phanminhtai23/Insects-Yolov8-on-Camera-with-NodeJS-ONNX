@@ -7,13 +7,13 @@
   - Testing: 700 images.
 - [Report here](https://drive.google.com/file/d/1VqpZIE3QkztcQKSmE4ew5tF8251MY7F5/view?usp=sharing)
 ## Overviews
-<img src="./assists/home.png" width="500"> 
+<img src="./assists/home.png" width="800"> 
 
 ## Predict a photo
-<img src="./assists/predict.png" width="500"> 
+<img src="./assists/demo_img.png" width="800"> 
 
 ## Camera prediction
-![Demo GIF](./assists/demo-vid.gif)
+![Demo GIF](./assists/demo_vid.gif)
 
 ## Installation
 1. git clone
