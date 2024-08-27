@@ -13,9 +13,8 @@
 <img src="./assists/predict.png" width="500"> 
 
 ## Identify with camera
-<video width="500" controls>
-  <source src="./assists/bg-vid.png" type="video/mp4">
-</video>
+![Demo GIF](./assists/demo2.gif)
+
 
 ## Installation
 1. git clone
