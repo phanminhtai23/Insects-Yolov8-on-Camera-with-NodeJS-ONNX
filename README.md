@@ -6,13 +6,17 @@
   .Validation: 700 images.
   .Testing: 700 images.
 - [Report here](https://drive.google.com/file/d/1VqpZIE3QkztcQKSmE4ew5tF8251MY7F5/view?usp=sharing)
-- Overviews
-## Home
+## Overviews
 <img src="./assists/home.png" width="500"> 
+
 ## Identify a photo
 <img src="./assists/predict.png" width="500"> 
+
 ## Identify with camera
-<img src="./assists/demo2.mp4" width="500"> 
+<video width="500" controls>
+  <source src="./assists/demo2.mp4" type="video/mp4">
+</video>
+
 ## Installation
 1. git clone
 ```bash
