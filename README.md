@@ -19,8 +19,8 @@
 ## Installation
 1. git clone
 ```bash
-git clone https://github.com/phanminhtai23/Insect-Yolov8-Camera.git
-cd Insect-Yolov8-Camera
+git clone https://github.com/phanminhtai23/Insects-Yolov8-on-Camera-with-NodeJS-ONNX.git
+cd Insects-Yolov8-on-Camera-with-NodeJS-ONNX
 ```
 2. setup
 ```bash
