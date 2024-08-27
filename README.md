@@ -14,7 +14,7 @@
 
 ## Identify with camera
 <video width="500" controls>
-  <source src="./assists/demo2.mp4" type="video/mp4">
+  <source src="./assists/bg-vid.png" type="video/mp4">
 </video>
 
 ## Installation
