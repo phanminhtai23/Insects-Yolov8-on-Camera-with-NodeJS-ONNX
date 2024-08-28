@@ -1,6 +1,6 @@
 # Pest identification system in rice plants
 - The system uses YOLO (Yolov8n) for training, the test results on the test set are **F1 ≈ 95%, mAP50 ≈ 95%**.
-- The collected dataset includes **3,500 photos** including 7 types of harmful insects in rice plants, including: Stem borer, Leaf rollers, Brown leafhoppers, Green leafhopper, Crickets, Creek compensation and Black bugs.
+- The collected dataset includes **3,500 photos** including **7 types of harmful insects in rice plants**, including: Stem borer, Leaf rollers, Brown leafhoppers, Green leafhopper, Crickets, Creek compensation and Black bugs.
 - Split data for model training:
   - Training: 2100 images.
   - Validation: 700 images.
