@@ -6,6 +6,7 @@
   - Validation: 700 images.
   - Testing: 700 images.
 - [Report here](https://drive.google.com/file/d/1VqpZIE3QkztcQKSmE4ew5tF8251MY7F5/view?usp=sharing)
+- **DEMO**: [click here](https://insects-yolov8-on-camera-with-nodejs-onnx.onrender.com/)
 ## Overviews
 <img src="./assists/home.png" width="800"> 
 
