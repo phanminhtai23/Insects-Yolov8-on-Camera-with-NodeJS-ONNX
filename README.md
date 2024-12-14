@@ -9,7 +9,7 @@
   - Testing: 700 images.
 - **Report**: [click here](https://drive.google.com/file/d/1VqpZIE3QkztcQKSmE4ew5tF8251MY7F5/view?usp=sharing)
 - **DEMO**: [click here](https://insects-yolov8-on-camera-with-nodejs-onnx.onrender.com/)
-- **CV**: [click here](https://drive.google.com/file/d/1TCdqZhra6L3lUmkb4QnIAODeiss1LhRs/view?usp=sharing)
+- **Sample data, email phanminhtai23@gmail.com to get full dataset**: [click here](https://drive.google.com/drive/folders/1MK7Yvi0v4eQuzR4b7c87HIqvW4qyyKiw?usp=sharing)
 ## Overviews
 <img src="./assists/home.png" width="800"> 
 
