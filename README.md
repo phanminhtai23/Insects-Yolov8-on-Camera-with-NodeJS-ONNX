@@ -3,6 +3,7 @@
 - Written in javascript, can use **client resources** (use predict_vid_client.js in source) or **API** (use predict_vid_sever.js) for recognition.
 - The system uses YOLO (Yolov8n) for training, the test results on the test set are **F1 ≈ 95%, mAP50 ≈ 95%**.
 - The collected dataset includes **3,500 photos** including **7 types of harmful insects in rice plants**, including: Stem borer, Leaf rollers, Brown leafhoppers, Green leafhopper, Crickets, Creek compensation and Black bugs.
+- The images are selected and brought to the same size of 640x640. Image enhancement techniques are also used such as: image rotation, image flipping, brightness enhancement,...
 - Split data for model training:
   - Training: 2100 images.
   - Validation: 700 images.
